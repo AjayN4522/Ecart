@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: auto;
+}
+
+body{
+    background-color:rgb(231, 223, 223);
+}
+
+.cart{
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.profile{
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.nav{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.image{
+    height: 115%;
+    background: linear-gradient(to top right ,rgb(37,75,229),rgb(9, 221, 228),rgb(227, 105, 127),rgb(231, 15, 51));
+}
+
+.circle1{
+    background:linear-gradient(to top right,rgb(1, 120, 238),rgb(34, 85, 227),rgb(232, 115, 197),rgb(212, 24, 56));
+    /* border-top-right-radius: 10px;
+    border-bottom-right-radius: 40%; */
+    border-radius: 0px 0% 85% 0% ;
+
+}
+
+.circle2{
+    background:linear-gradient(to top right,rgb(171, 235, 235),rgb(215, 97, 130),rgb(210, 179, 184));
+    border-radius:60%;
+}
+
+
+.cardimg img{
+    height: 300px;
+    width: auto ;
+    padding: 20px;
+}
+
+.googlepic{
+    height: 120px;
+}
+.card{
+    border: 2px solid #ccc;
+    margin: 10px;
+}

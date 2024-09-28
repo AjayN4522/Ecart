@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="main container-fluid mt-1">
+
+    <div class="row">
+        <div class="col-md-8 col-6 header_left d-flex flex-md-row flex-column justify-content-center align-items-center">
+            <h6 class="col-md-3 col-12 ">Company Name</h6>
+            <div  class="d-flex justify-content-center align-items-center col-md-8 col-12">
+                <input type="text" placeholder="Search" class="form-control">
+                <i class="bi bi-search border border-1 bg-primary text-light p-1 ms-1"></i>
+            </div>
+            
+        </div>
+        <div class="header_right col-md-4 col-6 d-flex flex-md-row flex-column justify-content-md-around justify-content-center align-items-center">
+            <div class="col-md-6 col-6 icons d-flex justify-content-end">
+            <i type="" class="cart bi bi-cart4 px-2 bg-light border border-1 position-relative me-3">
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger ">
+                  9
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+            </i >
+            <i class="profile bi bi-person-fill bg-light border border-1 px-2"></i>
+        </div>
+            <div class="col-md-5 col-12 register d-flex flex-column justify-content-center align-items-center">
+                <h6>Welcome</h6>
+                <div class="signin col-12 d-flex justify-content-center align-items-center">
+                    <a href="#" class="text-decoration-none border-end border-1 border-dark pe-2 text-dark">Signin</a>
+                    <a href="#" class="text-decoration-none text-dark ms-1">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row bg-light mt-3 col-12 border border-1 border-secondary mx-1 p-1">
+        <div class="nav col-md-7 col-12 p-2 d-flex justify-content-between align-items-center">
+            <a class="text-decoration-none text-dark " href="#">Home</a>
+            <a class="text-decoration-none text-dark " href="#">About</a>
+            <a class="text-decoration-none text-dark " href="#">SuperMarket</a>
+            <a class="text-decoration-none text-dark " href="#">Partnership</a>
+            <a class="text-decoration-none text-dark " href="#">Baby Samp Toys</a>
+            <a class="text-decoration-none text-dark " href="#">Fitness Sport</a>
+            <a class="text-decoration-none text-dark " href="#">Clothing</a>
+            <a class="text-decoration-none text-dark " href="#">Furnitures</a>
+            <a class="text-decoration-none text-dark" href="#">
+                
+            </a>
+            <select class="border border-none text-center"  name="" id="">
+                <option value="more">More</option>
+                <option value="laptop">Laptops</option>
+                <option value="pcs">Pcs</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-3 col-12 btn-group-vertical">
+                <a href="#" class="btn btn-light text-md-start text-center border border-bottom-2">Rest Clothes</a>
+                <a href="#" class="btn btn-light text-md-start text-center border border-bottom-2">AutoMobiles</a>
+                <a href="#" class="btn btn-light text-md-start text-center border border-bottom-2">Home Interior</a>
+                <a href="#" class="btn btn-light text-md-start text-center border border-bottom-2">Electronics</a>
+                <a href="#" class="btn btn-light text-md-start text-center border border-bottom-2">Technologies</a>
+                <a href="#" class="btn btn-light text-md-start text-center border border-bottom-2">Digital Goods</a>
+                <div class="btn-group" role="group">
+                    <a href="#" class="btn btn-light text-md-start text-center border border-bottom-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="listMoreItems">More Items</a>
+                <ul class="dropdown-menu text-md-start text-center col-md-12" aria-labelledby="listMoreItems">
+                    <li><a  class="btn btn-light border border-bottom-1 col-md-12 mb-2" href="#">Mobiles</a></li>
+                    <li><a  class="btn btn-light border border-bottom-1 col-md-12 mb-2" href="#">Accessories</a></li>
+                    <li><a  class="btn btn-light border border-bottom-1 col-md-12 mb-2" href="#">Jewels</a></li>
+                </ul>
+                </div>
+        </div>
+        <div class="bannerImage col-md-8 col-12">
+            <div class="col-12 image d-flex">
+                <div class="circle1 col-6 h-100 d-flex justify-content-center align-items-center text-light">
+                    <div class="col-6 circontent">
+                        <h4 class="col-md-10 fw-bold">GREAT BANNER</h4>
+                        <p class="col-md-10 col-12">Hey i am demo banner just for design</p>
+                    </div>
+                </div>
+                <div class="circle2 col-6 h-100"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="products col-md-12 col-12 row mt-5 bg-light ms-1">
+        <div class="productHeader col-md-12 d-flex justify-content-between mt-3">
+            <h4>Popular Products</h4>
+            <a href="#" class="btn btn-light text-primary border border-primary">See all</a>
+        </div>
+        <div class="col-11 container cardimg card-group mt-3">
+            <div class="col-md-3 col-12 card border border-1 border-secondary">
+              <img src="./images/shirt.png" class="image-fluid shirt card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Just another product name</h6>
+                <p class="card-text fw-bold">$179.00</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-12 border border-1 border-secondary card">
+              <img src="./images/airplane.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Some item name here</h6>
+                <p class="card-text fw-bold">$280.00</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-12 border border-1 border-secondary card">
+              <img src="./images/short.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Great product name here</h6>
+                <p class="card-text fw-bold">$56.00</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-12 border border-1 border-secondary card">
+                <img src="./images/shirts.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">just another product name</h6>
+                  <p class="card-text fw-bold">$176.00</p>
+                </div>
+              </div>
+        </div>
+        <div class=" container col-11 cardimg card-group mt-3 mb-5">
+            <div class="col-md-3 col-12 border border-1 border-secondary card">
+              <img src="./images/bg3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Just another product name</h6>
+                <p class="card-text fw-bold">$179.00</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-12 border border-1 border-secondary card">
+              <img src="./images/BG7.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Some item name here</h6>
+                <p class="card-text fw-bold">$280.00</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-12 border border-1 border-secondary card">
+              <img src="./images/logo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Great product name here</h6>
+                <p class="card-text fw-bold">$56.00</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-12 border border-1 border-secondary card">
+                <img src="./images/logo2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">just another product name</h6>
+                  <p class="card-text fw-bold">$176.00</p>
+                </div>
+              </div>
+        </div>
+        
+
+    </div>
+
+    <div class="details col-12 d-md-flex justify-content-md-between align-items-md-center flex-md-row flex-column">
+        <div class="details_left">
+            <h4>Download app demo text</h4>
+            <p>Get an amazing app in make your life easy</p>
+        </div>
+        <div class="details_right d-flex justify-content-between">
+            <img src="./images/google.png" class="googlepic" alt="">     
+            <img src="./images/google.png" class="googlepic" alt="">     
+        </div>
+    </div>
+
+    <div class="col-md-12 brandDetails border border-1 bg-light p-5 d-md-flex justify-content-md-between flex-md-row flex-column">
+        <div class="brands col-md-2 mb-md-0 mb-2 text-md-start text-center  d-flex flex-column">
+            <h6 class="fw-bold">Brands</h6>
+            <a href="#" class="text-decoration-none text-dark">Adidas</a>
+            <a href="#" class="text-decoration-none text-dark">Puma</a>
+            <a href="#" class="text-decoration-none text-dark">Reebok</a>
+            <a href="#" class="text-decoration-none text-dark">Nike</a>
+        </div>
+        <div class="company col-md-2 mb-md-0 mb-2 text-md-start text-center  d-flex flex-column">
+            <h6 class="fw-bold">Company</h6>
+            <a href="#" class="text-decoration-none text-dark">About us</a>
+            <a href="#" class="text-decoration-none text-dark">Career</a>
+            <a href="#" class="text-decoration-none text-dark">Find a store</a>
+            <a href="#" class="text-decoration-none text-dark">Rules and terms</a>
+            <a href="#" class="text-decoration-none text-dark">Sitemap</a>
+        </div>
+        <div class="Help col-md-2  mb-md-0 mb-2 text-md-start text-center  d-flex flex-column">
+            <h6 class="fw-bold">Help</h6>
+            <a href="#" class="text-decoration-none text-dark">Contact us</a>
+            <a href="#" class="text-decoration-none text-dark">Money refund</a>
+            <a href="#" class="text-decoration-none text-dark">Order status</a>
+            <a href="#" class="text-decoration-none text-dark">Shipping info</a>
+            <a href="#" class="text-decoration-none text-dark">Open dispute</a>
+        </div>
+        <div class="Account col-md-2 mb-md-0 mb-2 text-md-start text-center  d-flex flex-column">
+            <h6 class="fw-bold">Account</h6>
+            <a href="#" class="text-decoration-none text-dark">User login</a>
+            <a href="#" class="text-decoration-none text-dark">User register</a>
+            <a href="#" class="text-decoration-none text-dark">Account setting</a>
+            <a href="#" class="text-decoration-none text-dark">My orders</a>
+        </div>
+        <div class="Social col-md-2 mb-md-0 mb-2 text-md-start text-center  d-flex flex-column">
+            <h6 class="fw-bold">Social</h6>
+            <i class="bi bi-facebook"><a class="ms-1 text-decoration-none text-dark" href="#">Facebook</a></i>
+            <i class="bi bi-twitter"><a class="ms-1 text-decoration-none text-dark" href="#">Twitter</a></i>
+            <i class="bi bi-instagram"><a class="ms-1 text-decoration-none text-dark" href="#">Instagram</a></i>
+            <i class="bi bi-youtube"><a class="ms-1 text-decoration-none text-dark" href="#">Youtube</a></i>
+        </div>
+    </div>
+  </div>
+
+  <script src="../bootstrap-5.0.2/dist/js/bootstrap.min.js"></script>
+  <script src="../bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
